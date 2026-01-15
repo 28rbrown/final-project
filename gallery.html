@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family: Arial; margin:0; padding:1.5rem; line-height:1.5;}
+    header, footer {background:#003366; color:#fff; padding:1rem;}
+    nav ul {list-style:none; padding:0; display:flex; gap:1rem;}
+    nav a {color:#fff; text-decoration:none;}
+    .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:1rem;}
+    figure {margin:0;}
+    img {width:100%; height:auto; border-radius:6px;}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Photo Gallery</h1>
+  <nav>
+    <ul>
+      <li><a href="https://rileybrown.w3spaces.com/soccerHOME.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://rileybrown.w3spaces.com/soccerTEAMS.html">Teams</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Highlights</h2>
+
+  <div class="grid">
+    <figure>
+      <img src="https://static3.bigstockphoto.com/4/7/3/large1500/374284915.jpg" alt="Players celebrating a goal">
+      <figcaption>Celebrating a weekend win.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://images.pexels.com/photos/8941569/pexels-photo-8941569.jpeg?cs=srgb&dl=pexels-kampus-production-8941569.jpg&fm=jpg" alt="Coach giving instructions">
+      <figcaption>Coach Clark preparing the team.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="https://thumbs.dreamstime.com/b/training-football-session-children-soccer-camp-boy-s-team-kids-practicing-outdoor-balls-young-improving-dribbling-259366017.jpg" alt="Kids practicing dribbling drills">
+      <figcaption>Youth players during drills.</figcaption>
+    </figure>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 River City Community Soccer Club</p>
+</footer>
+</body>
+</html>
