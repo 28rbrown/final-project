@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join & Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family: Arial; margin:0; padding:1.5rem; line-height:1.5;}
+    header, footer {background:#003366; color:#fff; padding:1rem;}
+    nav ul {list-style:none; padding:0; display:flex; gap:1rem;}
+    nav a {color:#fff; text-decoration:none;}
+    form {max-width:600px; background:#fff; padding:1rem; border:1px solid #ccc; border-radius:6px;}
+    .row {margin-bottom:1rem;}
+    label {font-weight:bold;}
+    input, select, textarea {width:100%; padding:0.5rem; margin-top:0.25rem;}
+    button {padding:0.5rem 1rem; background:#0077cc; color:#fff; border:none; border-radius:4px;}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Join & Contact</h1>
+  <nav>
+    <ul>
+      <li><a href="https://rileybrown.w3spaces.com/soccerHOME.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://rileybrown.w3spaces.com/soccerTEAMS.html">Teams</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Get in Touch</h2>
+  <p>Fill out the form below and we’ll contact you with more information.</p>
+
+  <form>
+    <div class="row">
+      <label for="name">Full Name</label>
+      <input id="name" type="text" required>
+    </div>
+
+    <div class="row">
+      <label for="email">Email</label>
+      <input id="email" type="email" required>
+    </div>
+
+    <div class="row">
+      <label for="interest">I am interested in</label>
+      <select id="interest">
+        <option>Playing</option>
+        <option>Volunteering</option>
+        <option>Both</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label for="message">Message</label>
+      <textarea id="message" rows="4"></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2026 River City Community Soccer Club</p>
+</footer>
+</body>
+</html>
