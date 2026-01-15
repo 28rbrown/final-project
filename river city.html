@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>River City Community Soccer Club</title>
+  <meta name="description" content="River City Community Soccer Club: youth and adult leagues, volunteer opportunities, and community events.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>River City Community Soccer Club</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="https://rileybrown.w3spaces.com/soccerHOME.html">Home</a></li>
+        <li><a href="https://rileybrown.w3spaces.com/soccerABOUT.html">About the Club</a></li>
+        <li><a href="https://rileybrown.w3spaces.com/soccerTEAMS2.html">Teams & Coaches</a></li>
+        <li><a href="https://rileybrown.w3spaces.com/soccerSCHEDULE.html">Game Schedule</a></li>
+        <li><a href="https://rileybrown.w3spaces.com/soccerGALLERY.html">Photo Gallery</a></li>
+        <li><a href="https://rileybrown.w3spaces.com/soccerCONTACT.html">Join & Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Flexbox hero section with image + text -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-text">
+        <h2 id="hero-heading">Inclusive soccer for all ages and abilities</h2>
+        <p>
+          Our volunteer‑run club offers recreational and competitive soccer,
+          focusing on teamwork, confidence, and community.
+        </p>
+        <p>
+          Learn more about our programs, volunteer opportunities, and upcoming events.
+        </p>
+        <a class="btn" href="about.html">Discover our mission</a>
+      </div>
+
+      <figure class="hero-image">
+        <img src="https://media.gettyimages.com/id/75404984/photo/football-team-in-a-huddle.jpg?s=1024x1024&w=gi&k=20&c=i3ji7sNxD25fIXcpFI0ANLCS8cMehqlGtmq_VojSQOE="
+             alt="Youth soccer players in a huddle on the field">
+        <figcaption>Players gather before a weekend match.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Simple list + complex nested list -->
+    <section aria-labelledby="programs-heading">
+      <h2 id="programs-heading">Programs we offer</h2>
+
+      <!-- Simple list -->
+      <h3>Core programs</h3>
+      <ul class="simple-list">
+        <li>Youth recreational league (ages 6–12)</li>
+        <li>Teen league (ages 13–17)</li>
+        <li>Adult co‑ed league</li>
+      </ul>
+
+      <!-- Complex nested list -->
+      <h3>Volunteer opportunities</h3>
+      <ul class="complex-list">
+        <li>On‑field roles
+          <ul>
+            <li>Assistant coach</li>
+            <li>Referee</li>
+            <li>First‑aid support</li>
+          </ul>
+        </li>
+        <li>Off‑field roles
+          <ul>
+            <li>Fundraising & sponsorship outreach</li>
+            <li>Social media & photography</li>
+            <li>Event planning and registration</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CSS Grid layout with table + sidebar -->
+    <section class="grid-layout" aria-labelledby="schedule-heading">
+      <div>
+        <h2 id="schedule-heading">Sample game schedule</h2>
+        <table class="schedule-table">
+          <caption>Spring season home games</caption>
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Team</th>
+              <th scope="col">Opponent</th>
+              <th scope="col">Field</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>April 6</td>
+              <td>10:00 AM</td>
+              <td>U12 River City Lions</td>
+              <td>Northside Eagles</td>
+              <td>Field A</td>
+            </tr>
+            <tr>
+              <td>April 13</td>
+              <td>1:00 PM</td>
+              <td>U15 River City Waves</td>
+              <td>Westbrook United</td>
+              <td>Field B</td>
+            </tr>
+            <tr>
+              <td>April 20</td>
+              <td>3:30 PM</td>
+              <td>Adult Co‑ed</td>
+              <td>Downtown FC</td>
+              <td>Field C</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <aside class="schedule-aside">
+        <h3>Field accessibility</h3>
+        <p>
+          All fields include accessible parking, ramps, and seating areas.
+          Please contact us if you need additional accommodations.
+        </p>
+        <p>
+          View detailed directions on
+          <a href="https://maps.app.goo.gl/emj28vafv9mwiPFMA" target="_blank" rel="noopener">
+            Google Maps
+          </a>.
+        </p>
+      </aside>
+    </section>
+
+    <!-- Accessible multimedia -->
+    <section aria-labelledby="video-heading">
+      <h2 id="video-heading">Watch a day with the club</h2>
+      <p>
+        This short video introduces our players, coaches, and volunteers.
+        Captions and a transcript are provided for accessibility.
+      </p>
+
+      <figure class="video-wrapper">
+        <video controls width="560"
+               aria-describedby="video-desc"
+               poster="images/video-poster.jpg">
+          <source src="media/club-overview.mp4" type="video/mp4">
+          <track kind="captions" src="media/club-overview-captions.vtt" srclang="en" label="English captions" default>
+          Your browser does not support the video tag. A transcript is available below.
+        </video>
+        <figcaption id="video-desc">
+          Overview of a typical practice and game day at River City Community Soccer Club.
+        </figcaption>
+      </figure>
+
+      <details>
+        <summary>Read the full video transcript</summary>
+        <p>
+          The video opens with kids arriving at the field, greeting coaches, and warming up…
+          <!-- Continue transcript as needed -->
+        </p>
+      </details>
+    </section>
+
+    <!-- Form with at least 3 elements -->
+    <section aria-labelledby="join-heading">
+      <h2 id="join-heading">Join the club or volunteer</h2>
+      <p>
+        Complete the form below and we’ll follow up with details about teams,
+        fees, and volunteer roles.
+      </p>
+
+      <form action="submit.html" method="post">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="interest">I am interested in</label>
+          <select id="interest" name="interest">
+            <option value="player">Playing</option>
+            <option value="volunteer">Volunteering</option>
+            <option value="both">Both playing and volunteering</option>
+          </select>
+        </div>
+
+        <fieldset class="form-row">
+          <legend>Preferred age group</legend>
+          <label>
+            <input type="radio" name="age-group" value="youth">
+            Youth (6–12)
+          </label>
+          <label>
+            <input type="radio" name="age-group" value="teen">
+            Teen (13–17)
+          </label>
+          <label>
+            <input type="radio" name="age-group" value="adult">
+            Adult
+          </label>
+        </fieldset>
+
+        <div class="form-row">
+          <label for="message">Questions or accessibility needs</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Submit interest</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 River City Community Soccer Club</p>
+    <p>
+      Follow our
+      <a href="https://www.instagram.com" target="_blank" rel="noopener">
+        Instagram photo highlights
+      </a>
+      for more game‑day moments.
+    </p>
+  </footer>
+</body>
+</html>
